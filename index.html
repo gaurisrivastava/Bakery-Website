@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 3G's Bakery</title>
+
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+            /* css reset */
+            body {
+                font-family: 'Baloo Bhai 2', cursive;
+                color: white;
+                margin: 0px;
+                padding: 0px;
+                background: url(img/dessert.jpg.jpg);
+                height: 1000px;
+                width: 1000px;
+            }
+
+
+            .left {
+                display: inline-block;
+                /* border: 2px solid red; */
+                position: absolute;
+                top: 20px;
+                left: 60px;
+
+            }
+
+            .left img {
+
+                width: 56px;
+
+            }
+
+            .left div {
+                text-align: center;
+                line-height: 20px;
+                font-size: 20px;
+            }
+
+            .mid {
+                /* border: 2px solid green; */
+                display: block;
+                margin: 20px 400px;
+                width: 66%;
+
+
+            }
+
+            .right {
+                display: inline-block;
+                /* border: 2px solid purple; */
+                position: absolute;
+                right: 34px;
+                top: 20px;
+            }
+
+            .navbar {
+                display: inline-block;
+            }
+
+            .navbar li {
+                display: inline-block;
+                font-size: 20px;
+            }
+
+            .navbar li a {
+                color: white;
+                text-decoration: none;
+                padding: 34px 23px;
+            }
+
+            .navbar li a:hover,
+            a.navbar a:active {
+                text-decoration: underline;
+                color: rgb(156, 23, 2);
+            }
+
+            .btn {
+                font-family: 'Baloo Bhai 2', cursive;
+                margin: 2px 9px;
+                background-color: black;
+                color: white;
+                padding: 4px 14px;
+                border-radius: 10px;
+                font-size: 20px;
+                cursor: pointer;
+
+            }
+
+            .btn:hover {
+                background-color: rgb(240, 167, 155);
+            }
+
+            .container {
+                border: 2px solid rgb(146, 160, 146);
+                margin: 100px 950px;
+                padding: 4px 2px;
+                width: 45%;
+                display: block;
+                border-radius: 25px;
+            }
+
+            .container h3 {
+                text-align: center;
+            }
+
+            .form-group input {
+                font-family: 'Baloo Bhai 2', cursive;
+                font-size: 12px;
+                margin: 8px auto;
+                text-align: center;
+                width: 74%;
+                display: block;
+                border: 2px solid black;
+                border-radius: 8px;
+                padding: 5px;
+            }
+
+            .container button {
+                margin: 15px auto;
+                display: block;
+                width: 76%;
+                padding: 2px;
+            }
+        </style>
+    </head>
+
+<body>
+    <header class="Header">
+        <div class="left">
+            <img src="img/girl.png" alt="">
+            <div>3G's Bakery</div>
+
+        </div>
+        <!-- left for logo -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="href">Home</a></li>
+                <li><a href="#" class="href">About Us</a></li>
+                <li><a href="#" class="href">Products</a></li>
+                <li><a href="#" class="href">Contact Us</a></li>
+
+            </ul>
+        </div>
+        <!-- mid for navigation -->
+        <div class="right">
+            <button class="btn">Call us Now</button><button class="btn">Email Us</button>
+
+        </div>
+        <!-- right for buttons -->
+
+    </header>
+    <div class="container">
+        <h3>Book your favourite item now</h3>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter you Mobile Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your City">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
