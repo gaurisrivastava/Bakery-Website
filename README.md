@@ -33,15 +33,21 @@ href attribute,indicates the link's destination.
 Li,ol,ul:
 
 An unordered list starts with the ul tag.Each list item starts with the li tag.
+
 An ordered list starts with the ol tag.Each list item starts with the li tag.
+
 ul -	Defines an unordered list.
+
 ol -	Defines an ordered list.
+
 li -	Defines a list item.
   
 dl,dt,dd:
 
 The dl tag defines the description list.
-The dt tag defines the term (name).  
+
+The dt tag defines the term (name). 
+
 The dd tag describes each term.
   
 ##### Right
@@ -67,12 +73,55 @@ An input element can be displayed in many ways, depending on the type attribute.
 Type of input:
 
 input type="text"	,Displays a single-line text input field.
+
 input type="radio"	,Displays a radio button (for selecting one of many choices).
+
 input type="checkbox"	,Displays a checkbox (for selecting zero or more of many choices).
+
 input type="submit" ,Displays a submit button (for submitting the form).
+
 input type="button",	Displays a clickable button.
   
 #### Css Styling
+
+The style tag is used to define style information (CSS) for a document.
+Inside the style element you specify how HTML elements should render in a browser.
+
+Inline styles — Using the style attribute in the HTML start tag.
+
+Embedded style — Using the <style> element in the head section of the document.
+  
+External style sheet — Using the <link> element, pointing to an external CSS files.
+
+A class selector is a name preceded by a full stop (“.”).
+The class selector selects HTML elements with a specific class attribute.
+
+The id selector uses the id attribute of an HTML element to select a specific element.
+
+The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+ID selector is a name preceded by a hash character (“#”).
+
+The CSS border properties allow you to specify the style, width, and color of an element's border.
+The border-style property can have from one to four values (for the top border, right border, bottom border, and the left border).
+
+The text-align property specifies the horizontal alignment of text in an element.
+
+The text-decoration property specifies the decoration added to text, and is a shorthand property for:
+
+text-decoration-line 
+text-decoration-color
+text-decoration-style
+
+The CSS margin properties are used to create space around elements, outside of any defined borders.
+
+The CSS padding properties are used to generate space around an element's content, inside of any defined borders.
+
+The font-family property specifies the font for an element.
+The font-family property can hold several font names as a "fallback" system. If the browser does not support the first font, it tries the next font.
+
+The :hover selector is used to select elements when you mouse over them.
+
 
 
   
